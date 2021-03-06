@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <fragment
+        android:id="@+id/fragmentOne"
+        android:name="com.mbinfo.fragment.Fragment_One"
+        android:layout_height="280dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1" />
+
+    <fragment
+        android:id="@+id/fragmentTwo"
+        android:name="com.mbinfo.fragment.Fragment_Two"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_below="@id/fragmentOne"
+        android:layout_weight="1" />
+
+</RelativeLayout>

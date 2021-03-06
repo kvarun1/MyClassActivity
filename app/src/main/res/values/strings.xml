@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Tut</string>
+    <string name="app_name_toolbar">संस्कृत श्लोक और मंत्र</string>
+    <string name="app_card_toolbar">संस्कृत श्लोक </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mbinfo.fragment.HomeFragment">
+    <EditText
+    android:id="@+id/txtedit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter your name"
+    android:inputType="text"
+    android:layout_marginLeft="@dimen/_9sdp"
+    android:layout_marginRight="@dimen/_9sdp"
+    android:layout_marginTop="@dimen/_125sdp"/>
+    <Button
+        android:id="@+id/click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Click"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="@dimen/_9sdp"
+        android:layout_marginLeft="@dimen/_9sdp"
+        android:layout_marginTop="@dimen/_225sdp"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_29sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="@dimen/_9sdp"
+        android:layout_marginLeft="@dimen/_9sdp"
+        android:background="@color/colorPrimary"
+        android:text="clicktoactivity" />
+
+</FrameLayout>
